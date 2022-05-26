@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Карточка товара разными методами</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div id="page1" class="page1 page">
+            page1 inline <a href="#page2">Next Page</a>
+            <!-- <div class="pageWrapper"> -->
+                <div class="card">
+                    <div class="foto">
+                        <img src="img/car.jpg" alt="">
+                    </div><div class="text">
+                        <h2>Сочный Арбуз</h2>
+                        <p>Однолетнее травянистое растение, вид рода Арбуз семейства Тыквенные. В зависимости от сорта может быть столового или кормового назначения. В качестве кормового также используется арбуз кормовой.</p>
+                        <p class="price">40 Br</p>
+                        <a href="#" class="btn">В корзину</a>
+                    </div>
+                </div>
+            <!-- </div> -->
+
+        </div>
+        <div id="page2" class="page2 page">page2 Table <a href="#page3">Next Page</a>
+            <table class="card">
+                <tr>
+                    <td class="fotoSmalScrine">
+                        <img src="img/melon.jpg" alt="">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="foto">
+                        <img src="img/melon.jpg" alt="">
+                    </td>
+                    <td class="text">
+                        <h2>Ароматная дыня</h2>
+                        <p>Растение семейства Тыквенные, вид рода Огурец, бахчевая культура. Родиной дыни считается Средняя Азия и Малая Азия.</p>
+                        <p class="price">30 Br</p>
+                        <a href="#" class="btn">В корзину</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="page3" class="page3 page">page3 float <a href="#page4">Next Page</a>
+            <div class="card clearfix">
+                <div class="foto clearfix">
+                    <img src="img/strawberry.jpg" alt="">
+                </div><div class="text">
+                    <h2>Сладкая клубника</h2>
+                    <p>Название крупноплодных видов растений рода Земляника семейства Розовые, а также их плодов. Название относится к землянике зелёной, землянике мускусной, землянике ананасной.</p>
+                    <p class="price">10.10 Br</p>
+                    <a href="#" class="btn">В корзину</a>
+                </div>
+            </div>
+        </div>
+        <div id="page4" class="page4 page">
+            page4 Flex<a href="#">Next Page</a>
+            <!-- <div class="pageWrapper">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, tenetur? Odit, vero perferendis nulla impedit a dolorem. Praesentium voluptatibus reprehenderit accusamus similique sed beatae, corrupti perspiciatis error laborum obcaecati iure.</p>
+            <p>Debitis voluptate vitae, est dolore, ut atque tempora labore facere voluptatibus quidem sapiente, ipsum voluptas rerum aspernatur assumenda quisquam autem tempore repudiandae facilis quos? Numquam tempora sed nostrum expedita rerum!</p>
+            </div> -->
+            <div class="pageWrapper">
+                <div class="card">
+                    <div class="foto">
+                        <img src="img/apple.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h2>Спелое яблоко</h2>
+                        <p>Сочный плод яблони, который употребляется в пищу в свежем и запеченном виде, служит сырьём в кулинарии и для приготовления напитков. Наибольшее распространение получила яблоня домашняя, реже выращивают яблоню сливолистную. Размер красных, зелёных или жёлтых шаровидных плодов 5-13 см в диаметре.</p>
+                        <p class="price">5 Br</p>
+                        <a href="#" class="btn">В корзину</a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+</body>
+</html>
